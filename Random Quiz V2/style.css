@@ -1,0 +1,64 @@
+body {
+  background-color: lightblue;
+  padding-bottom: 150px;
+  margin: 0;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+  font-family: 'raleway', sans-serif;
+  letter-spacing: 3px;
+  }
+
+h2 {
+  font-family: 'raleway', sans-serif;
+  font-variant: small-caps; 
+  }
+
+a { 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: greenyellow;
+}
+
+p, ul, input {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.7px
+}
+
+.italic {
+  font-style: italic;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-right: 25px
+}
+
+div {
+  background-color: white;
+  padding: 20px 150px 100px;
+  width: 600px;
+  margin: auto;
+}
+
+img {
+  border: 1px solid black;
+}
+
+span {
+  font-variant: small-caps;
+  color: yellowgreen;
+  font-weight: 1800;
+  font-size: 200;
+}

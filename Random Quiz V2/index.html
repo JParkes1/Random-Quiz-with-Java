@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div>
+        <h1>RANDOM QUIZ</h1>
+        <hr>
+    
+        <h2>Question 1</h2>
+        <p> what country uses the flag below?</p>
+        (<a href="https://www.canada.ca/en.html" target="_blank">HINT</a>)
+        </p>
+        <img src="Media/canada-27003_640.png" alt="Canada Flag" width="400px">
+        <p class="italic">Answer: <input id="answer1" type="text"></p>
+        <hr>
+    
+        <h2>Question 2</h2>
+        <p> Which of the following is <strong>not</strong> a piece used in chess?</p>
+        <ul>
+          <li>Pawn</li>
+          <li>Knight</li>
+          <li>Cardinal</li>
+          <li>Rook</li>
+          <li>Queen</li>
+          <li>King</li>
+        </ul>
+        <p class="italic">Answer: <input id="answer2" type="text"></p>
+        <hr>
+    
+        <h2>Question 3</h2>
+        <p>Who is Po <em>(the Kung Fu Panda)</em> scared of in this audio clip?</p>
+        <img src="Media/panda_PNG37.png" alt="Kung Fu Panda" width=300px>
+        <p>
+          <audio controls>
+            <source src="Media/Kung Fu Pandaa.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+          </audio>
+        </p>
+        <p class="italic">Answer: <input id="answer3" type="text"></p>
+        <hr>
+
+        <h2>Question 4</h2>
+        <p>which colour isn't in a rainbow?</p>
+        <ul>
+          <li>Orange</li>
+          <li>Yellow</li>
+          <li>Purple</li>
+          <li>Brown</li>
+          <li>Red</li>
+        </ul>
+        <p class="italic">Answer: <input id="answer4" type="text"></p>
+        <hr>
+    
+        <h2>Results</h2>
+        <p>
+        <button id="MarkQ" type="button">MARK QUIZ</button> Your score is <span id="Score">___</span> / 4 (<span id="Percentage">___</span>%)
+        </p>
+        <p>Thanks for taking this <span>Random Quiz</span></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
